@@ -8,16 +8,19 @@
         android:id="@+id/greetingText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="16sp"
+        android:layout_marginTop="16sp"
         android:text="Happy Birthday, Sam!"
-        android:textSize="32sp" />
+        android:textSize="36sp" />
 
     <TextView
         android:id="@+id/fromText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="From Emma."
-        android:textSize="32sp"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:padding="16dp" />
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="16sp"
+        android:layout_marginBottom="16sp"
+        android:text="From Emma."
+        android:textSize="36sp" />
 </RelativeLayout>
